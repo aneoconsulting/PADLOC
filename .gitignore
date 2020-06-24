@@ -1,0 +1,16 @@
+.vscode/
+build/
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+api/samples/padloc/padloc_prog_test/*.*
+!api/samples/padloc/padloc_prog_test/*.c
+!api/samples/padloc/padloc_prog_test/*.cpp
+!api/samples/padloc/padloc_prog_test/*.h
+!api/samples/padloc/padloc_prog_test/Makefile
+!run_test.sh
+api/samples/padloc/padloc_prog_test/windows/*.*
+!api/samples/padloc/padloc_prog_test/windows/*.c
+!api/samples/padloc/padloc_prog_test/windows/*.cpp
+!api/samples/padloc/padloc_prog_test/windows/*.h
+**/Doxygen/
